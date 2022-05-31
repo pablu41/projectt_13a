@@ -1,0 +1,19 @@
+ 1. single insert query
+
+ INSERT INTO fb_users ('username' , 'age' , 'phone', 'address', 'created_at') VALUES ('pablu', '20', '01796611241', 'sylhet uposhohor', '28-05-2022');
+
+ 2. multiple insert query
+
+ INSERT INTO fb_users ('username' , 'age' , 'phone', 'address', 'created_at') VALUES
+
+ ('saeh', '23', '01730903327', 'hobigonj', '23-03-2022'),
+ ('ahmed', '24', '01796125474', 'bahuball', '25-08-2022');
+
+
+ 3. update query
+
+ UPDATE fb_users SET 'name' = 'pablu', 'phone' = '01796611241' WHERE id = 2;
+
+ 4. delete query
+
+ DELETE FROM fb_users WHERE id = 2;
